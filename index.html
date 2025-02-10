@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bangladesh 2.0</title>
+    <link rel="shortcut icon" href="./assets/hero.png" type="image/x-icon">
+    <!-- css -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.7/daisyui.css" rel="stylesheet" type="text/css" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <style type="text/tailwindcss">
+        /* @theme {
+          --color-main: #006A50;
+          --color-secend: #c6e4d6;
+        } */
+        @theme {
+            --font-sans:"Fira Sans";
+        }
+      </style>
+</head>
+<body class="sans">
+    <header class="md:container md:mx-auto px-2">
+        <nav class="py-6">
+            <ul class="flex justify-between">
+                <li><a class="font-bold text-3xl"href="">Bangladesh 2.0</a></li>
+                <button class="btn border-[#006A50] text-lg text-semibold text-[#006A50]"><a href="">Sing in</a></button>
+            </ul>
+        </nav>
+        <!-- hero -->
+        <section class="md:container md:mx-auto lg:py-5">
+            <div class="flex flex-col lg:flex-row gap-y-8 justify-between items-center bg-[#c6e4d6] rounded-3xl min:w-7xl min:h-auto lg:px-20 lg:py-24">
+                <div class="">
+                    <h3 class="text-2xl font-medium text-[#0d0d0d]/50">Bangladesh 2.0</h3>
+                    <h1 class="text-4xl lg:text-6xl font-bold pb-7">Idea , innovation ,<br> vision and challenges in <br> New Bangladesh.</h1>
+                    <a class="btn bg-[#006A50] border-none bg-main text-white text-lg font-semibold " href="">Explore New Bangladesh</a>
+                </div>
+                <div><img src="./assets/hero.png" alt="">
+        </section>
+    </header>
+    <main class="md:container md:mx-auto py-8 ">
+        <div class="text-4xl font-bold pb-8 p-2">Pillars of "Bangladesh 2.0"</div>
+        <!-- box cards -->
+
+         <div class="gap-6 p-2 md:justify-center md:gap-8 md:grid-cols-2 lg:flex lg:flex-row lg:gap-7 ">
+            <div class="card bg-base-100 card-lg shadow-sm">
+                <div class="card-body">
+                    <img class="w-16 h-16" src="./assets/card-icon.png" alt="">
+                    <h2 class="card-title">Innovation</h2>
+                    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                </div>
+              </div>
+
+              <div class="card bg-base-100 card-lg shadow-sm">
+                <div class="card-body">
+                    <img class="w-16 h-16" src="./assets/card-icon.png" alt="">
+                    <h2 class="card-title">Sustainability</h2>
+                    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                </div>
+              </div>
+
+              <div class="card bg-base-100 card-lg shadow-sm">
+                <div class="card-body">
+                    <img class="w-16 h-16" src="./assets/card-icon.png" alt="">
+                    <h2 class="card-title">Infrastructure</h2>
+                    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                </div>
+              </div>
+
+              <div class="card bg-base-100 card-lg shadow-sm">
+                <div class="card-body">
+                    <img class="w-16 h-16" src="./assets/card-icon.png" alt="">
+                    <h2 class="card-title">Empowerment</h2>
+                    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                </div>
+              </div>
+         </div>
+        
+
+    </main>
+    
+</body>
+</html>
